@@ -1,0 +1,255 @@
+/* ================================================================================
+TAG SELECTORS
+================================================================================ */
+body {
+  font: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+em {
+  font-family: 'Ubuntu';
+  font-weight: normal;
+  margin-left: 20px;
+}
+
+/* ================================================================================
+CLASS SELECTORS
+================================================================================ */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* ================================================================================
+TITLE SELECTORS
+================================================================================ */
+.title {
+  background-color: #252a34;
+  font-family: 'Montserrat', sans-serif;
+  color: #ff2e63;
+}
+
+.div-title-text {
+  padding-left: 0;
+}
+
+/*-----    Navigation Bar   -----*/
+.navbar {
+  padding-left: 0;
+  padding-bottom: 4.5rem;
+  background-color: #252a34;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff2e63;
+}
+
+.navbar-brand:hover {
+  color: #eaeaea;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  color: #ff2e63;
+}
+
+.nav-link:hover {
+  color: #eaeaea;
+}
+
+.btn-toggler {
+  color: #ff2e63;
+  border-color: #ff2e63;
+}
+
+.btn-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/*-----    Buttons   -----*/
+.btn-download {
+  margin: 15% 3% 15% 0;
+}
+
+/*-----    Title Image   -----*/
+.image-title {
+  width: 70%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* ================================================================================
+FEATURES SELECTORS
+================================================================================ */
+.features {
+  background-color: #eaeaea;
+  padding: 7% 15%;
+  position: relative;
+}
+
+.div-features {
+  text-align: center;
+}
+
+/*-----    Icons   -----*/
+.fas-features {
+  margin-bottom: 10%;
+  color: #252a34;
+}
+
+.fas-features:hover {
+  color: #ff2e63;
+}
+
+/* ================================================================================
+TESTIMONIALS SELECTORS
+================================================================================ */
+.testimonials {
+  text-align: center;
+  background-color: #252a34;
+  color: #ff2e63;
+}
+
+/*-----    Carousel   -----*/
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.testimonials-img {
+  width: 15%;
+  margin-top: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+  height: 625px;
+}
+
+.press {
+  background-color: #252a34;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 40px 20px;
+}
+
+/* ================================================================================
+PRICING SELECTORS
+================================================================================ */
+.pricing {
+  padding: 100px;
+  text-align: center;
+  background-color: #eaeaea;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card {
+  border-radius: 10px;
+  border-color: #08d9d6;
+}
+
+.pricing-btn {
+  border-radius: 10px;
+}
+
+.pricing-btn:hover {
+  background-color: #08d9d6;
+}
+
+/* ================================================================================
+CTA SELECTORS
+================================================================================ */
+/*-----    Leyout  pattern -----*/
+.cta {
+  padding: 100px;
+  text-align: center;
+  background-color: #252a34;
+  color: #ff2e63;
+}
+
+.cta-col {
+  padding: 3% 2%;
+}
+
+.btn-cta {
+  margin: 1% 7%;
+}
+
+.btn-cta:hover {
+  background-color: #08d9d6;
+}
+
+/* ================================================================================
+FOOTER SELECTORS
+================================================================================ */
+.footer {
+  padding: 50px;
+  background-color: #eaeaea;
+  text-align: center;
+}
+
+/*-----    Favicons   -----*/
+.footer-fab {
+  margin: 3% 2%;
+}
+
+.footer-fab:hover {
+  color: #ff2e63;
+}
+
+/* ================================================================================
+MEDIA QUERY
+================================================================================ */
+@media (max-width: 1028px) {
+  .title {
+    text-align: center;
+  }
+
+  .image-title {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .btn-cta {
+    margin: 7%;
+  }
+}
