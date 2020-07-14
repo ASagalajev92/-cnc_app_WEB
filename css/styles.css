@@ -2,27 +2,11 @@
 TAG SELECTORS
 ================================================================================ */
 body {
-  font: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: 900;
-}
-
-h2 {
-  font-family: 'Montserrat';
-  font-size: 3rem;
-  font-weight: 900;
-  line-height: 1.5;
-}
-
-h3 {
-  font-family: 'Montserrat';
-  font-weight: bold;
-  font-size: 1.5rem;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
 }
 
 p {
@@ -33,6 +17,14 @@ em {
   font-family: 'Ubuntu';
   font-weight: normal;
   margin-left: 20px;
+}
+
+/*-----    Headings   -----*/
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
 }
 
 /* ================================================================================
@@ -143,6 +135,12 @@ TESTIMONIALS SELECTORS
   color: #ff2e63;
 }
 
+.testimonials-text {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
 /*-----    Carousel   -----*/
 .carousel-inner {
   width: 100%;
@@ -178,6 +176,16 @@ PRICING SELECTORS
   background-color: #eaeaea;
 }
 
+.pricing-text-h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.pricing-text-h3 {
+  font-size: 1.5rem;
+}
+
 .pricing-column {
   padding: 3% 2%;
 }
@@ -204,6 +212,12 @@ CTA SELECTORS
   text-align: center;
   background-color: #252a34;
   color: #ff2e63;
+}
+
+.cta-text {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
 }
 
 .cta-col {
